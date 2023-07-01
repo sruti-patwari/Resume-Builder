@@ -1,0 +1,40 @@
+body {
+    background-color: #e2e2e2;
+}
+#cv-form
+{
+    
+    margin-top: 10px; 
+}
+#cv-template {
+    display: none;
+}
+.myimg {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background {
+    background-color: #9BC5C9;
+}
+
+.text-secondary {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-secondary + ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.text-secondary + ul li {
+    margin-right: 10px;
+}
